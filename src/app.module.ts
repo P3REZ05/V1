@@ -16,7 +16,7 @@ import { ProductsQueue } from './microservices/products/queues/products.queue';
     GatewayModule,
 
 
-    // Configuración para RabbitMQ import { Module } from '@nestjs/common
+    // Configuración para RabbitMQ 
     ClientsModule.register([
       {
         name: 'ORDER_SERVICE', // Nombre del servicio para RabbitMQ
